@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="default.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+    <title>Mila's Portfolio</title>
+</head>
+<body>
+    
+
+    <section class="c1">
+        <div class="first-container">
+            <div class="greeting">
+            <h1>Welcome to my portfolio!</h1>
+            </div>
+        
+
+        <div class="intro">
+            <div class="nav"> 
+                <div class="dots"> 
+                   <div id = "dot1" class="browser-dots"></div>
+                   <div id = "dot2" class="browser-dots"></div>
+                   <div id = "dot3" class="browser-dots"></div>
+                </div>  
+                
+                <!-- <ul id="navigation"> 
+                    <li><a href="">Contact</a></li> -->
+                    
+                </ul>  
+            </div>
+
+            <div class="left-column">
+                <img id = "profile" src="photos/p2.jpg" >
+                <h5 style = "text-align: center; line-height: 0;">Избери тема по твой вкус :)</h5>
+
+                <div id = "theme-options">
+                    <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                    <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                    <div data-mode="pink" id="pink-mode" class="theme-dot"></div>
+                    <div data-mode="yellow" id="yellow-mode" class="theme-dot"></div>
+                </div>
+
+              <!--  <p id ="settings"> Избери тема по твой вкус!</p>-->
+            </div>
+
+            <div class="right-column">
+
+                <div id = "previewShadow">
+                    <div id = "preview">
+                        <div id="corner-TopLeft" class="corner"></div>
+                        <div id="corner-TopRight" class="corner"></div>
+                        <h3>За мен:</h3>
+                        <p>Здравейте!Казвам се Мила и съм на 17 години.Ученичка съм в НПГ по КТС гр.Правец! :)
+                        </p>
+                        <div id="corner-BottomRight" class="corner"></div>
+                        <div id="corner-BottomLeft" class="corner"></div>
+                    </div>
+            </div>
+            </div>
+        </div>
+     </div>
+    </section>
+
+    <section class="c2">
+        <div class="first-container">
+            
+            <div class="about-wrapper">
+				<div class="about-me">
+					<h4>Повече за мен:</h4>
+
+					<p>От много скоро се занимавам с Web програмиране.
+                    </p>
+
+					<p>С всеки изминал ден се занимавам с нещо ново.
+                        Имам голям интерес към HTML,CSS и JavaScript.
+                    </p>
+
+
+					<hr>
+
+					<h4>Сертификати:</h4>
+
+					<p>Може да видите сертификата ми за Programming basics with Java: <a target="_blank" href="Programming Basics - March 2021 - Certificate.pdf">Виж сертификат</a></p>
+                    <p>А тук с езиците,с които съм/и се занимавам: </p>
+
+					<div id="skills">
+                    
+						<ul>
+							<li>Java</li> 
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+				
+						</ul>
+
+						<ul>
+							<li>Linux</li>
+							<li>PHP</li>
+							<li>jQuery</li>
+							<li>C</li>
+						</ul>
+                        
+					</div>
+
+				</div>
+
+                <div class="social-links">
+                    <img id="social-img" src="photos/Social-Media-Ideas.png">
+                    <h3>Може да ме намерите в социалните мрежи:</h3>
+
+                    <a target="_blank" href="https://www.linkedin.com/in/mila-yonkova-70015220a/">LinkedIn</a><br>
+                    <a target="_blank" href="https://www.facebook.com/miladimitrovaa14">Facebook</a><br>
+                    <a target="_blank" href="https://github.com/MilaDimitrova">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="c1">
+        <div class="first-container">
+            Portfolio
+        </div>
+    </section> -->
+
+    <section class="c2">
+        <div class="first-container">
+            <h3 style="text-align:center"> Свържете се с мен :)</h3>
+
+            <form id="contactForm" action="https://getform.io/f/d265f6ea-4db6-4e11-abfc-f26aa9aceac3" method="POST">
+                <label>Име:</label>
+                <input class="input-field" type="text" name="name" placeholder="Твоето име" required> 
+
+                <label>Фамилия:</label>
+                <input class="input-field" type="text" name="surname" placeholder="Твоята фамилия" required> 
+
+                <label>Години:</label>
+                <input class="input-field" type="text" name="age" placeholder="Твоите години" required> 
+
+                <label>Тема:</label>
+                <input class="input-field" type="text" name="subject" placeholder="Въведи тема" required> 
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email" placeholder="Твоят email" required> 
+
+                <label>Съобщение</label>
+                <textarea class="input-field" type="text" name="message" placeholder="Тук можеш да напишеш съобщение" required></textarea>
+
+                <input  id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="theme.js"></script>
+</body>
+</html>

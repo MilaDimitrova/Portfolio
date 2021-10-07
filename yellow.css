@@ -1,0 +1,18 @@
+:root{
+    --mainColor:#b14f50;
+    --secondaryColor:#f1988a;
+
+    --borderColor:#f1988a;
+
+    --mainText:white;
+    --secondaryText:#d7f1f7;
+
+    --themeDotBroder: #fff;
+
+    --previewBack:#f1988a;
+    --prevShadow: #b14f50;
+
+    --submitButton: #f1988a;
+
+    --skill: #b14f50;
+}

@@ -1,0 +1,18 @@
+:root{
+    --mainColor:#4f553a;
+    --secondaryColor:#a4ac86;
+
+    --borderColor:#c2c5aa;
+
+    --mainText:white;
+    --secondaryText:#d7f1f7;
+
+    --themeDotBroder: #fff;
+
+    --previewBack:#dfe0d7;
+    --prevShadow: #4f553a;
+
+    --submitButton: #383d29;
+
+    --skill: #4f553a;
+}
